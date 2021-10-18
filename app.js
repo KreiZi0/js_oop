@@ -24,8 +24,8 @@ class Triangle extends Shape {
 const square = new Square ("square", 4, 5);
 const triangle = new Triangle("triangle", 3, 3);
 
-console.log(square.calcPerimeter());
-console.log(triangle.calcPerimeter());
+console.log(square.calcPerimeter(), "- ruudu ümbermõõt");
+console.log(triangle.calcPerimeter(), "- kolmnurga ümbermõõt");
 
 
 
